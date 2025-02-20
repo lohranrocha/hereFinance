@@ -1,9 +1,20 @@
-
 export const colors = {
   black: '#000000',
   yellowOcre: '#e6b800',
-  lightGray: '#D1D1D1',
+  blue: '#2C4A85',
+  purple: '#72358C',
+  lightBlue: '#A5C3FF',
+  lightPurple: '#E2BFF7',
+  lightmediumGray: '#4F4F4F',
+  darkGray: '#2E2E2E',
   mediumGray: '#9E9E9E',
-  darkGray: '#4F4F4F',
-  white: '#FFFFFF'
+  lightGray: '#D1D1D1',
+  white: '#FFFFFF',
+  pastelYellow: '#EDFF8D',
+  pastelBlue: '#ACCBFF',
+  pastelGreen: '#DAEB81',
+  softLilac: '#ABCBFF',
+  babyBlue: '#A6C4FF',
+  softPink: '#EAC5FF',
+  vibrantYellow: '#EEFF8E'
 };
