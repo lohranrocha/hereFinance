@@ -19,6 +19,9 @@ export const style = StyleSheet.create({
     borderBottomWidth: 1,
     borderBlockColor: colors.lightmediumGray,
   },
+  movements: {
+    paddingVertical: 18,
+  },
   txtTitle: {
     fontSize: 18,
     fontWeight: 'bold',

@@ -2,15 +2,11 @@ import { StyleSheet } from "react-native";
 import { colors } from "@/Styles/colors";
 
 export const style = StyleSheet.create({
-  container: {
-    padding: 15,
-    height: 50,
-    
-  },
-  headerExtract: {
+   headerExtract: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-   
+    paddingHorizontal: 10,
+    height: 30,
   },
   txtTitle: {
     color: colors.white,

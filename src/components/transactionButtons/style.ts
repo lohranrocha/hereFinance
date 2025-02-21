@@ -2,18 +2,12 @@ import { StyleSheet } from "react-native"
 import { colors } from "@/Styles/colors";
 
 export const style = StyleSheet.create({
-  actionBlock: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: 15,
-  },
-  btnNewTransfer: {
+   btnNewTransfer: {
     backgroundColor: colors.lightBlue,
     padding: 15,
     borderRadius: 25,
-    width: "47%",
+    width: "48%",
     alignItems: "center",
-
   },
   btnNewEntry: {
     backgroundColor: colors.pastelGreen,
@@ -25,7 +19,7 @@ export const style = StyleSheet.create({
   txtTransfer: {
     color: colors.black,
     fontSize: 16,
-    fontWeight: "bold"
+    fontWeight: "bold",
    },
   txtEntry: {
     color: colors.black,

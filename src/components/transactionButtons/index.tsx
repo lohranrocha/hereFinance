@@ -1,18 +1,19 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, ViewStyle } from "react-native";
 import { style } from "@/components/transactionButtons/style"
 
 
-export function TransactionButtons(){
+interface Props {
+    title: string;
+    onPress?: () => void;
+    style?: ViewStyle;
+}
+
+export function TransactionButtons(props: Props){
+    
     return(
-        
-            <View style={style.actionBlock}>
-                <TouchableOpacity style={style.btnNewTransfer}>
-                    <Text style={style.txtTransfer}>Saídas</Text> 
-                </TouchableOpacity>
-                <TouchableOpacity style={style.btnNewEntry}>
-                    <Text style={style.txtEntry}>Entradas</Text> 
+                <TouchableOpacity style={props.style}>
+                    <Text style={style.txtTransfer}>{props.title}</Text> 
                 </TouchableOpacity>       
-            </View>
             
         
     )

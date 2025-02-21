@@ -3,11 +3,9 @@ import { style } from "@/components/balance/style";
 import Entypo from '@expo/vector-icons/Entypo';
 import { useState } from "react";
 
-type Balance = {
-    value: Number;
-}
+
 export function Balance(){
-    const [ value, setValue ] = useState('5.000,00')
+    const [ value, setValue ] = useState('6.500,00')
   return(
         <View style={style.blockTwoHeader}>
             <View style={style.blockValue}>
@@ -19,5 +17,6 @@ export function Balance(){
                 <Entypo name="eye" size={24} color="black" />
             </TouchableOpacity>
         </View>
-  )
+        
+ )
 };
