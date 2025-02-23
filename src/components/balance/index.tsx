@@ -6,6 +6,13 @@ import { useState } from "react";
 
 export function Balance(){
     const [ value, setValue ] = useState('6.500,00')
+    const [ showHideBalance, setShowHideBalance] = useState(true)
+
+    const handleToggleBalance = () => {
+        setShowHideBalance(!showHideBalance)
+        showHideBalance? setValue('6.500,00') : setValue('**********')
+    }
+
   return(
         <View style={style.blockTwoHeader}>
             <View style={style.blockValue}>
@@ -13,8 +20,8 @@ export function Balance(){
                 <Text style={style.txtValue}>R$ {value}</Text>
             </View>
 
-            <TouchableOpacity>
-                <Entypo name="eye" size={24} color="black" />
+            <TouchableOpacity onPress={handleToggleBalance}>
+                <Entypo name={showHideBalance? "eye-with-line" : "eye"} size={24} color="black" />
             </TouchableOpacity>
         </View>
         

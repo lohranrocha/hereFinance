@@ -6,14 +6,23 @@ import { Movement } from './movement';
 export function Extract(){
   const mock = [
     {key: 1, name: 'Lohran Rocha', value: 5.500},
-    {key: 2, name: 'Lohran Rocha', value: 2.000},
-    {key: 3, name: 'Lohran Rocha', value: 3.200},
-    {key: 4, name: 'Lohran Rocha', value: 1.700}, 
-    {key: 5, name: 'Lohran Rocha', value: 1.700}, 
-    {key: 6, name: 'Lohran Rocha', value: 1.700}, 
+    {key: 2, name: 'Johnathan', value: 2.000},
+    {key: 3, name: 'Douglas', value: 3.200},
+    {key: 4, name: 'Geovanna', value: 1.700}, 
+    {key: 5, name: 'Roberto', value: 1.700}, 
+    {key: 6, name: 'Anderson', value: 1.700}, 
     {key: 7, name: 'Roberto Firmino', value: 11.700}, 
   ]
   const ultimosItens = [...mock].slice(-4);
+
+ 
+
+  function renderItem({item}) {
+    return (
+      <Movement key={item.key} name={item.name} value={item.value} />
+    );
+  }
+
   
   return(
     <View style={style.container}>
@@ -26,7 +35,7 @@ export function Extract(){
         <FlatList
         data={ultimosItens}
         keyExtractor={item => item.name}
-        renderItem={({item}) => <Movement {...item} />}
+        renderItem={renderItem}
         />            
       </View>
 

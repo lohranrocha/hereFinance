@@ -2,7 +2,7 @@ import { View, Text } from 'react-native';
 import { style } from "@/components/extract/movement/style";
 
 interface Props {
-  key: number;
+  key?: number;
   name: string;
   value: number;
 }

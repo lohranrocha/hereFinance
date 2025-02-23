@@ -12,9 +12,12 @@ export const colors = {
   white: '#FFFFFF',
   pastelYellow: '#EDFF8D',
   pastelBlue: '#ACCBFF',
-  pastelGreen: '#DAEB81',
+  pastelGreen: '#90EE90',
   softLilac: '#ABCBFF',
   babyBlue: '#A6C4FF',
   softPink: '#EAC5FF',
-  vibrantYellow: '#EEFF8E'
+  vibrantYellow: '#EEFF8E',
+  redFirebrick: '#B22222',
+  darkRed: '#8b0000',
+  lightRed: '#F08080'
 };
