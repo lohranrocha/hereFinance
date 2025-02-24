@@ -6,6 +6,7 @@ export const colors = {
   lightBlue: '#A5C3FF',
   lightPurple: '#E2BFF7',
   lightmediumGray: '#4F4F4F',
+  mediummdGray: '#303030',
   darkGray: '#2E2E2E',
   mediumGray: '#9E9E9E',
   lightGray: '#D1D1D1',
@@ -19,5 +20,8 @@ export const colors = {
   vibrantYellow: '#EEFF8E',
   redFirebrick: '#B22222',
   darkRed: '#8b0000',
-  lightRed: '#F08080'
+  lightRed: '#F08080',
+  psLightGray: '#414143',
+  psMediumGray: '#363538',
+  psDarkGray: '#1f1f1f'
 };

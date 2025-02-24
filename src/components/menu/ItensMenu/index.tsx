@@ -6,8 +6,8 @@ import { useState } from 'react';
 
 
 export function ItensMenu(){
-   const [selectedItem, setSelectedItem] = useState<string | null>(null);
-   const [iconSelectedItem, setIconSelectedItem] = useState<string | null>(null); 
+   const [selectedItem, setSelectedItem] = useState<string | null>("Carteira");
+   const [iconSelectedItem, setIconSelectedItem] = useState<string | null>("wallet-outline"); 
      
    function handleChangeStyle(name1: string, name2: string){      
         setSelectedItem(name1)

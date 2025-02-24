@@ -5,7 +5,7 @@ export const style = StyleSheet.create({
   container: {
     backgroundColor: colors.darkGray,
     padding: 10,
-    height: 200,
+    height: 240,
     marginTop: 15,
     borderRadius: 25,
     overflow: "hidden",
@@ -21,9 +21,10 @@ export const style = StyleSheet.create({
   },
   movements: {
     paddingVertical: 18,
+    paddingTop: 22,
   },
   txtTitle: {
-    fontSize: 18,
+    fontSize: 23,
     fontWeight: 'bold',
     color: colors.white,
   },

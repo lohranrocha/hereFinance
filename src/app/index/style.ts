@@ -10,7 +10,7 @@ export const style = StyleSheet.create({
   },
   contentButtons: {
     flexDirection: "row",
-    marginTop: 15,
+    marginTop: 13,
     gap: 10,
   },
   btnEntry: {
@@ -53,4 +53,56 @@ export const style = StyleSheet.create({
     borderRadius: 25, 
     
   },
+
+  modal:{
+    flex: 1,
+    width: "94%",
+    margin: "auto",
+    justifyContent: 'flex-start',
+    marginTop: 145
+  },
+  modalContent:{
+    borderRadius: 25,
+    backgroundColor: colors.psDarkGray,
+    paddingVertical: 24,
+    paddingHorizontal: 18
+    
+  },
+  modalHeader:{
+    borderBlockColor: colors.mediumGray,
+    flexDirection: 'row',
+    justifyContent:'space-between',
+    alignItems: 'center',
+    marginBottom: 32
+
+  },
+  modalTitle:{
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: colors.lightGray
+  },
+  modalCloseIcon: {
+    
+  },
+  modalTypeOfTransaction: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 40,
+    backgroundColor: colors.psMediumGray,
+    borderRadius: 10,
+    padding: 8,
+  }, 
+  btnExpense: {
+    fontSize: 16,
+    color: colors.white,
+  },
+  btnIncome: {
+    fontSize: 16,
+    color: colors.white,
+  }, 
+  btnTransfer: {
+    fontSize: 16,
+    color: colors.white,
+  },
+
 });
