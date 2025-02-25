@@ -15,7 +15,7 @@ interface Props {
 export function Itens({icon, title, isSelected, iconIsSelected, onPress}: Props){
       
     const menuItemTitleStyle = isSelected ? style.menuItemTitleSelected : style.menuItemTitle;
-    const menuItemIconStyle = iconIsSelected ? colors.pastelGreen : colors.mediumGray;
+    const menuItemIconStyle = iconIsSelected ? colors.primaryGreen[200] : colors.mediumGray;
   
   return(
     <TouchableOpacity onPress={onPress}>

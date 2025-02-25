@@ -8,7 +8,7 @@ export const style = StyleSheet.create({
     paddingTop: 15,
     paddingBottom: 15,
     paddingHorizontal: 25,
-    backgroundColor: colors.lightPurple,
+    backgroundColor: colors.primaryGreen[200],
     borderRadius: 25
   },
   blockValue: {

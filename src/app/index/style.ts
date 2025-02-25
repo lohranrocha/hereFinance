@@ -8,11 +8,6 @@ export const style = StyleSheet.create({
     fontFamily: "@/assets/fonts/SF Regular", 
     paddingHorizontal: 25,
   },
-  contentButtons: {
-    flexDirection: "row",
-    marginTop: 13,
-    gap: 10,
-  },
   btnEntry: {
     backgroundColor: colors.lightBlue,
     padding: 15,
@@ -36,7 +31,7 @@ export const style = StyleSheet.create({
     marginBottom: 5,
   },
   boxGoals: {
-    backgroundColor: colors.mediumGray,
+    backgroundColor: colors.tertiaryBlue[200],
     height: 140,
     width: "48%",
     padding: 30,
@@ -45,7 +40,7 @@ export const style = StyleSheet.create({
     
   },
   boxGoals2: {
-    backgroundColor: colors.pastelGreen,
+    backgroundColor: colors.primaryGreen[300],
     height: 140,
     width: "48%",
     padding: 30,
@@ -87,14 +82,11 @@ export const style = StyleSheet.create({
   modalTypeOfTransaction: {
     flexDirection: 'row',
     justifyContent: 'center',
-    gap: 40,
-    backgroundColor: colors.psMediumGray,
-    borderRadius: 10,
-    padding: 8,
   }, 
   btnExpense: {
     fontSize: 16,
     color: colors.white,
+
   },
   btnIncome: {
     fontSize: 16,
@@ -104,5 +96,28 @@ export const style = StyleSheet.create({
     fontSize: 16,
     color: colors.white,
   },
+  primaryButton: {
+    backgroundColor: colors.basicGray[400],
+    paddingHorizontal: 22,
+    paddingVertical: 8,
+    borderTopLeftRadius: 8,
+    borderBottomLeftRadius: 8,
+  },
+  secondaryButton: {
+    backgroundColor: colors.basicGray[400],
+    paddingHorizontal: 22,
+    paddingVertical: 8
+  },
+  tertiaryButton: {
+    backgroundColor: colors.basicGray[400],
+    paddingHorizontal: 22,
+    paddingVertical: 8,
+    borderTopRightRadius: 8,
+    borderBottomRightRadius: 8,
+  }, 
+ 
+
+
+
 
 });

@@ -23,5 +23,34 @@ export const colors = {
   lightRed: '#F08080',
   psLightGray: '#414143',
   psMediumGray: '#363538',
-  psDarkGray: '#1f1f1f'
+  psDarkGray: '#1f1f1f',
+
+
+  primaryGreen: {
+    100: '#edff8f',
+    200: '#cfd954',
+    300: '#9eaf01',
+    400: '#586201',
+  }, 
+  secondaryRose: {
+    100: '#e2bff9',
+    200: '#dd91fe',
+    300: '#bb5adf',
+    400: '#a717cf',
+  },
+  tertiaryBlue: {
+    100: '#a5c3ff',
+    200: '#409dfc',
+    300: '#0069c5',
+    400: '#01468a',
+  },
+  basicGray: {
+    100: '#d3d2d8',
+    200: '#8f8e94',
+    300: '#646368',
+    400: '#3a393e',
+    500: '#2c2b2f',
+  }
+
+
 };

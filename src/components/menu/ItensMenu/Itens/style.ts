@@ -23,7 +23,7 @@ export const style = StyleSheet.create({
   },
   menuItemTitleSelected: {
     fontWeight: "bold",
-    color: colors.pastelGreen,
+    color: colors.primaryGreen[200],
   }
 
 });
