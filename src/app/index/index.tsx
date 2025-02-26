@@ -11,11 +11,8 @@ import { colors } from "@/Styles/colors";
 import SwitchTransfer from "@/components/switchTransfer";
 import { useState } from "react";
 import { InputEntry } from "@/components/inputEntry";
+import {Categories} from "@/components/categories";
 
-
-function testButtons() {
-   console.log("Testing buttons");
-}
 
 export default function Index(){
      
@@ -43,7 +40,7 @@ export default function Index(){
                         <SwitchTransfer />
                        
                         <InputEntry />
-
+                        <Categories />
                     
                     </View>
                 </View>

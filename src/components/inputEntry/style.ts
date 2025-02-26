@@ -14,7 +14,6 @@ export const style = StyleSheet.create({
     },
     inputCategory: {
       alignItems: 'center',
-      
    
     },
    
